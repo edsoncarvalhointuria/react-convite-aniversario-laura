@@ -101,10 +101,10 @@ function App() {
                         backgroundColor:
                             "rgb(234.2638297872, 98.5361702128, 119.2723404255)",
                     }}
-                    onTap={() => {
+                    onClick={() => {
                         window.open(
                             "https://forms.gle/RDAPzo7hfxAxeKDJ6",
-                            "_blank"
+                            "_self"
                         );
                     }}
                 >
@@ -118,10 +118,10 @@ function App() {
                         backgroundColor:
                             "rgb(234.2638297872, 98.5361702128, 119.2723404255)",
                     }}
-                    onTap={() => {
+                    onClick={() => {
                         window.open(
                             "https://share.google/IkhKCp4ueM2d9270s",
-                            "_blank"
+                            "_self"
                         );
                     }}
                 >
