@@ -63,7 +63,7 @@ function App() {
                     <Butterfly />
                 </motion.div>
                 <motion.div className="body__img" variants={variantsImg}>
-                    <img src="/laura.jpg" alt="Imagem Laura" />
+                    <img src="./laura.jpg" alt="Imagem Laura" />
                 </motion.div>
 
                 <div className="body__infos">
