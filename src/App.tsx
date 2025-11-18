@@ -94,40 +94,32 @@ function App() {
             </div>
 
             <div className="footer">
-                <motion.button
+                <motion.a
                     variants={variantsItens}
                     whileTap={{ scale: 0.9 }}
                     whileHover={{
                         backgroundColor:
                             "rgb(234.2638297872, 98.5361702128, 119.2723404255)",
                     }}
-                    onClick={() => {
-                        window.open(
-                            "https://forms.gle/RDAPzo7hfxAxeKDJ6",
-                            "_self"
-                        );
-                    }}
+                    href="https://forms.gle/RDAPzo7hfxAxeKDJ6"
+                    target="_self"
                 >
                     <Check size={20} style={{ marginRight: "8px" }} />
                     Clique para confirmar sua presença
-                </motion.button>
-                <motion.button
+                </motion.a>
+                <motion.a
                     variants={variantsItens}
                     whileTap={{ scale: 0.9 }}
                     whileHover={{
                         backgroundColor:
                             "rgb(234.2638297872, 98.5361702128, 119.2723404255)",
                     }}
-                    onClick={() => {
-                        window.open(
-                            "https://share.google/IkhKCp4ueM2d9270s",
-                            "_self"
-                        );
-                    }}
+                    href="https://share.google/IkhKCp4ueM2d9270s"
+                    target="_self"
                 >
                     <MapPin size={20} style={{ marginRight: "8px" }} />
                     Clique para ver a localização
-                </motion.button>
+                </motion.a>
             </div>
         </motion.main>
     );
